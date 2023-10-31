@@ -21,8 +21,7 @@ for(let i = 1; i <=100 ; i++){
     }
 
     const box = document.createElement("div");
-    box.classList.add("box");
-    box.classList.add(my_bg_color);
+    box.classList.add("box" , my_bg_color );
     box.innerHTML = my_text;
     my_container.append(box);
 
